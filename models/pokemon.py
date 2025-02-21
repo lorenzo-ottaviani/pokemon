@@ -130,6 +130,8 @@ class Pokemon:
                 self.__front_sprite_path = all_pokemons.data_pokemons[self.get_name()]["front_sprite"]
                 self.__back_sprite_path = all_pokemons.data_pokemons[self.get_name()]["back_sprite"]
 
+
+
                 print(f"{self.__name} has evolved!")
 
                 # a faire: retirer l'objet du nom de la pré-evolution à 'my_pokemons' et append celui du nouveau nom à la place 
